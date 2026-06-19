@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'RJ_Movie_Search')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '33068965')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', 'd9f51d19b2e92edabd5c95c8c7e7aba9')  # API Hash from my.telegram.org
-BOT_TOKEN = environ.get('BOT_TOKEN', "8809669879:AAHWRBiJNUVI_F_2RW-tI1o-uYiVYvKsbdU")    # Bot token from @BotFather
+BOT_TOKEN = environ.get('BOT_TOKEN', "8728991198:AAEXo0-0MrOzcJxwjgFLf-KYAFxdDLq6nv8")    # Bot token from @BotFather
 
 # ============================
 # Bot Settings Configuration
@@ -73,7 +73,7 @@ STAR_PREMIUM_PLANS = {
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RJ_Auto_Filter_Bot:Jayu2155@cluster0.xe5e254.mongodb.net/?appName=Cluster0")  # MongoDB URI for the database
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ramu002488_db_user:Rxaj2Wj52b7ugo1E@cluster0.gmxd1h5.mongodb.net/?appName=Cluster0")  # MongoDB URI for the database
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0") # Database name (default: cluster)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'DᴜʙʙᴇᴅMᴏᴠɪᴇz_77_files') # Collection name (default: dreamcinezone_files)
 
