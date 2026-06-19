@@ -17,7 +17,7 @@ def is_enabled(value, default):
 # ============================
 # Bot Information Configuration
 # ============================
-SESSION = environ.get('SESSION', 'royal_search')   # Session name for the bot
+SESSION = environ.get('SESSION', 'RJ_Movie_Search')   # Session name for the bot
 API_ID = int(environ.get('API_ID', '33068965')) # API ID from my.telegram.org
 API_HASH = environ.get('API_HASH', 'd9f51d19b2e92edabd5c95c8c7e7aba9')  # API Hash from my.telegram.org
 BOT_TOKEN = environ.get('BOT_TOKEN', "8809669879:AAHWRBiJNUVI_F_2RW-tI1o-uYiVYvKsbdU")    # Bot token from @BotFather
@@ -44,9 +44,9 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6432985073').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003908307047').split()]  # Channel id for auto indexing (make sure bot is admin)
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003908307047'))  # Log channel id (make sure bot is admin)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1004447516927'))  # Log channel id (make sure bot is admin)
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1004358264076'))  # Bin channel id (make sure bot is admin)
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1003908307047'))  # Premium logs channel id
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1004447516927'))  # Premium logs channel id
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-100').split()] #(make sure bot is admin)
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')  # Support group id (make sure bot is admin)
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-100')  # Request channel id (make sure bot is admin)
