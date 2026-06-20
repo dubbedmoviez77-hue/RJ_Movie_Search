@@ -1459,7 +1459,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
                     InlineKeyboardButton('ᴜᴘɢʀᴀᴅᴇ 🎟', callback_data="premium_info"),
                 ],[
-                    InlineKeyboardButton('📌 ᴋᴀɴɴᴀᴅᴀ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇᴢ 📌', url="https://t.me/+LWZOcKe33uU4NjE1"),
+                    InlineKeyboardButton('📌 ᴋᴀɴɴᴀᴅᴀ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇᴢ 📌', url="https://t.me/+LWZOcKe33uU4NjE1")
+                ],[
                     InlineKeyboardButton('📌 ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇᴢ 📌', url="https://t.me/+X1YED8MdwgwwMzE1")
                 ], [
                     InlineKeyboardButton('📌 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
