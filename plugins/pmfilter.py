@@ -1402,26 +1402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await log_msg.reply_text(
                 text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                 quote=True,
-                disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([
-                    [
-                        InlineKeyboardButton("🚀 Fast Download 🚀", url=dreamx_download),  # web download Link
-                        InlineKeyboardButton('🖥️ Watch online 🖥️', url=dreamx_stream)
-                    ],[
-                        InlineKeyboardButton('📌 ᴋᴀɴɴᴀᴅᴀ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇᴢ 📌', url="https://t.me/+LWZOcKe33uU4NjE1")
-                    ],[
-                        InlineKeyboardButton('📌 ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇ ᴍᴏᴠɪᴇᴢ 📌', url="https://t.me/+X1YED8MdwgwwMzE1")
-                    ],[
-                        InlineKeyboardButton('📌 ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
-                    ]])  # web stream Link
-            )
-            dreamcinezone = await query.edit_message_reply_markup(
-                reply_markup=InlineKeyboardMarkup([
-                    [
-                        InlineKeyboardButton("🚀 Download ", url=dreamx_download),
-                        InlineKeyboardButton('🖥️ Watch ', url=dreamx_stream)
-                    ]])
-            )
+                disable_web_page_preview=True
             await asyncio.sleep(DELETE_TIME)
             await dreamcinezone.delete()
             return
